@@ -2,7 +2,7 @@ const express = require('express');
 const connectDB = require('./db');
 
 const userRoutes = require('./routes/userRoute');
-const { checkToken } = require('./middlewares/authMiddleware');
+//const { checkToken } = require('./middlewares/authMiddleware');
 
 require('dotenv').config();
 //connectDB();
